@@ -1,0 +1,16 @@
+PODS:
+  - UIHostingView (0.1.0)
+
+DEPENDENCIES:
+  - UIHostingView (from `../`)
+
+EXTERNAL SOURCES:
+  UIHostingView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UIHostingView: 805a65d41ef5a5e69de079b29a352bb047baccab
+
+PODFILE CHECKSUM: 02c771072134bbfa0e1497bdf38887ddae981473
+
+COCOAPODS: 1.11.3

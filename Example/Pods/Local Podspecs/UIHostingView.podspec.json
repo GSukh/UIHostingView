@@ -1,0 +1,22 @@
+{
+  "name": "UIHostingView",
+  "version": "0.1.0",
+  "summary": "A short description of UIHostingView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Grigoriy Sukhorukov/UIHostingView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Grigoriy Sukhorukov": "grigoriy.sukhorukov@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Grigoriy Sukhorukov/UIHostingView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "UIHostingView/Classes/**/*"
+}

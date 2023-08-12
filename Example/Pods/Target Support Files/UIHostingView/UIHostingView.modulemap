@@ -1,0 +1,6 @@
+framework module UIHostingView {
+  umbrella header "UIHostingView-umbrella.h"
+
+  export *
+  module * { export * }
+}

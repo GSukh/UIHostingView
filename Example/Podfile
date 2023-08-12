@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'UIHostingView_Example' do
+  pod 'UIHostingView', :path => '../'
+
+  target 'UIHostingView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module Pods_UIHostingView_Example {
+  umbrella header "Pods-UIHostingView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
