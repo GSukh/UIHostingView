@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		18BEC5F06F3CBC066DF50ABAE8BDFD35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1B4F30EAB61166E9C652627C991FDF9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3DA89B2F6A296897F6F2CDA2E82D05AC /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF03E37BCDB059229D33232DFBB213F8 /* ReplaceMe.swift */; };
-		553953272908EC3EE639D3F9ECD971A7 /* UIHostingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7752965F4AA7EA973CE6613228916062 /* UIHostingView-dummy.m */; };
+		227267845E583C1765EDC3A8FE5F53D6 /* UIHostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75259F9FC141C9CD4F9FB42FC3784CA /* UIHostingView.swift */; };
 		553DCBC4459FD5813DEA5A2C2D788F9F /* Pods-UIHostingView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10321F1DE89B39F75F2DBCBF6D53F62B /* Pods-UIHostingView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EB98888EC85143D7F694B45199BC7B3 /* UIHostingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B75E3A2DA6F0378A458650F57E0A95B4 /* UIHostingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EB98888EC85143D7F694B45199BC7B3 /* UIHostingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5988CC092195F1895F3A1CA11C8FC9C1 /* UIHostingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F041A80A229A680979A13445DB83DAF /* UIHostingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC2CE21D80724328C3FECC014262734 /* UIHostingView-dummy.m */; };
 		84A1C801F2DC6B2494D00B6D19547145 /* Pods-UIHostingView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8531765DE3A5B504E03E08F54E53E8 /* Pods-UIHostingView_Tests-dummy.m */; };
 		C23A0E2DB1F385D6A731F3B6D9F2B8AC /* Pods-UIHostingView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 744176B8979F82B2676C17B4092F537B /* Pods-UIHostingView_Example-dummy.m */; };
 		D844587A7C65353B435F112EAD5306AF /* Pods-UIHostingView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7438DFC6BFCFAE83D10369504313E611 /* Pods-UIHostingView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,38 +38,38 @@
 
 /* Begin PBXFileReference section */
 		0096EB813371AABD6202AF278AF65933 /* Pods-UIHostingView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UIHostingView_Tests"; path = Pods_UIHostingView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		029C9ED3C4F511555DF60246AB54827A /* UIHostingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIHostingView-prefix.pch"; sourceTree = "<group>"; };
+		01D2965463E4B45CF0C7868415041ABB /* UIHostingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIHostingView-Info.plist"; sourceTree = "<group>"; };
 		06A775B614C9EE2E376F865EA9E84877 /* Pods-UIHostingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIHostingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0DD4E878A43FEF289179112908320263 /* UIHostingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIHostingView-Info.plist"; sourceTree = "<group>"; };
 		10321F1DE89B39F75F2DBCBF6D53F62B /* Pods-UIHostingView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIHostingView_Example-umbrella.h"; sourceTree = "<group>"; };
-		37213DF6A9110E88F05BD947975D8650 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3121D09413AAE62CDCCBA0FC3FDCE3F8 /* UIHostingView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UIHostingView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		42D458E052227EF714559D708C9292C5 /* UIHostingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIHostingView.modulemap; sourceTree = "<group>"; };
 		44A73C125303EACC76E9851E6E5F8C17 /* Pods-UIHostingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIHostingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4825F6F1F1752923CC0FADECADFBC307 /* UIHostingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIHostingView-prefix.pch"; sourceTree = "<group>"; };
+		5988CC092195F1895F3A1CA11C8FC9C1 /* UIHostingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIHostingView-umbrella.h"; sourceTree = "<group>"; };
 		6E01959A81466F4C70B99F02EAEB50C9 /* Pods-UIHostingView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIHostingView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7438DFC6BFCFAE83D10369504313E611 /* Pods-UIHostingView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIHostingView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		744176B8979F82B2676C17B4092F537B /* Pods-UIHostingView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIHostingView_Example-dummy.m"; sourceTree = "<group>"; };
-		7752965F4AA7EA973CE6613228916062 /* UIHostingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIHostingView-dummy.m"; sourceTree = "<group>"; };
 		80F4D2860FF7C9CC29C262E17905823F /* Pods-UIHostingView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIHostingView_Tests-Info.plist"; sourceTree = "<group>"; };
-		8129B7DB040264E7D9160A773359E7CF /* UIHostingView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIHostingView.release.xcconfig; sourceTree = "<group>"; };
 		823F1D45A25EC1626ECB09C978EDA696 /* UIHostingView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIHostingView; path = UIHostingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E546101F9D3DAABFF7658D54F80ED4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		891DB83ED00F0222221B1AC2CE68D3C0 /* Pods-UIHostingView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIHostingView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9335570D683777558AE80DEFD152ACED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9779A0D7F886F314E3F1B9A947E8C1E7 /* Pods-UIHostingView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIHostingView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0B73822764A1F4ABF6FA2787164CB8E /* Pods-UIHostingView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIHostingView_Tests.modulemap"; sourceTree = "<group>"; };
 		A138CAA27C23EA172B555E8F28DD2C10 /* Pods-UIHostingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIHostingView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B3125904C839F90E9B2CBB6FAB81455B /* UIHostingView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIHostingView.debug.xcconfig; sourceTree = "<group>"; };
-		B5560CCE75274D604A9E63E321637692 /* UIHostingView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UIHostingView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B75E3A2DA6F0378A458650F57E0A95B4 /* UIHostingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIHostingView-umbrella.h"; sourceTree = "<group>"; };
-		C2DC9A9ED1466129D9FF2D7E18D54825 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C74809513F2154CC37B506E6B8DC5ECF /* Pods-UIHostingView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIHostingView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CF03E37BCDB059229D33232DFBB213F8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UIHostingView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		CAC2CE21D80724328C3FECC014262734 /* UIHostingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIHostingView-dummy.m"; sourceTree = "<group>"; };
 		CF987D6E83C5867B1CD16B34780125B0 /* Pods-UIHostingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIHostingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0F261578A439FCEEE47964F1DD23711 /* Pods-UIHostingView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIHostingView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D57DE271D9971DA1A53EF7AF2C72FE56 /* UIHostingView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIHostingView.release.xcconfig; sourceTree = "<group>"; };
+		DD513940E36795ADBFB5E778F87E2B73 /* UIHostingView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIHostingView.debug.xcconfig; sourceTree = "<group>"; };
 		E076C33B9678774F6DCBB817A4D942A6 /* Pods-UIHostingView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIHostingView_Example.modulemap"; sourceTree = "<group>"; };
+		E75259F9FC141C9CD4F9FB42FC3784CA /* UIHostingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIHostingView.swift; path = Sources/UIHostingView/UIHostingView.swift; sourceTree = "<group>"; };
 		EB8531765DE3A5B504E03E08F54E53E8 /* Pods-UIHostingView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIHostingView_Tests-dummy.m"; sourceTree = "<group>"; };
 		EF78A3D343D23156047B1930BFAEED39 /* Pods-UIHostingView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UIHostingView_Example"; path = Pods_UIHostingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54C8C87F0A169EE5123D04B8CB3E437 /* Pods-UIHostingView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIHostingView_Example-Info.plist"; sourceTree = "<group>"; };
-		FD99C49DDD7B60D2DBCD05D7BC5464DF /* UIHostingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIHostingView.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,27 +126,12 @@
 			path = "Target Support Files/Pods-UIHostingView_Tests";
 			sourceTree = "<group>";
 		};
-		549B1329BF52EE9CB73BAA5B38D3EDFC /* Support Files */ = {
+		408B558E37E0928844F1FAE377912CDB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FD99C49DDD7B60D2DBCD05D7BC5464DF /* UIHostingView.modulemap */,
-				7752965F4AA7EA973CE6613228916062 /* UIHostingView-dummy.m */,
-				0DD4E878A43FEF289179112908320263 /* UIHostingView-Info.plist */,
-				029C9ED3C4F511555DF60246AB54827A /* UIHostingView-prefix.pch */,
-				B75E3A2DA6F0378A458650F57E0A95B4 /* UIHostingView-umbrella.h */,
-				B3125904C839F90E9B2CBB6FAB81455B /* UIHostingView.debug.xcconfig */,
-				8129B7DB040264E7D9160A773359E7CF /* UIHostingView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/UIHostingView";
-			sourceTree = "<group>";
-		};
-		5686745D3AE690783EAE40F6E5596C2B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C2DC9A9ED1466129D9FF2D7E18D54825 /* LICENSE */,
-				37213DF6A9110E88F05BD947975D8650 /* README.md */,
-				B5560CCE75274D604A9E63E321637692 /* UIHostingView.podspec */,
+				88E546101F9D3DAABFF7658D54F80ED4 /* LICENSE */,
+				9335570D683777558AE80DEFD152ACED /* README.md */,
+				3121D09413AAE62CDCCBA0FC3FDCE3F8 /* UIHostingView.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -162,9 +147,24 @@
 		63F11FBD6707EBA93D70782327799C60 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CC06A6311858E981A612A782E4C15B17 /* UIHostingView */,
+				9DD141F4B6E94FAB0FBEC48EEEFB484C /* UIHostingView */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6CE6F950F85896F318858240106680E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42D458E052227EF714559D708C9292C5 /* UIHostingView.modulemap */,
+				CAC2CE21D80724328C3FECC014262734 /* UIHostingView-dummy.m */,
+				01D2965463E4B45CF0C7868415041ABB /* UIHostingView-Info.plist */,
+				4825F6F1F1752923CC0FADECADFBC307 /* UIHostingView-prefix.pch */,
+				5988CC092195F1895F3A1CA11C8FC9C1 /* UIHostingView-umbrella.h */,
+				DD513940E36795ADBFB5E778F87E2B73 /* UIHostingView.debug.xcconfig */,
+				D57DE271D9971DA1A53EF7AF2C72FE56 /* UIHostingView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UIHostingView";
 			sourceTree = "<group>";
 		};
 		79AB95A9C76C3EFEC18D3190722565CB /* Pods-UIHostingView_Example */ = {
@@ -184,6 +184,17 @@
 			path = "Target Support Files/Pods-UIHostingView_Example";
 			sourceTree = "<group>";
 		};
+		9DD141F4B6E94FAB0FBEC48EEEFB484C /* UIHostingView */ = {
+			isa = PBXGroup;
+			children = (
+				E75259F9FC141C9CD4F9FB42FC3784CA /* UIHostingView.swift */,
+				408B558E37E0928844F1FAE377912CDB /* Pod */,
+				6CE6F950F85896F318858240106680E5 /* Support Files */,
+			);
+			name = UIHostingView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		ADD51B96A703EEBD01657AEBE9D50C39 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,17 +202,6 @@
 				207621B32BFC4854594C9CE966B90C4F /* Pods-UIHostingView_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		CC06A6311858E981A612A782E4C15B17 /* UIHostingView */ = {
-			isa = PBXGroup;
-			children = (
-				CF03E37BCDB059229D33232DFBB213F8 /* ReplaceMe.swift */,
-				5686745D3AE690783EAE40F6E5596C2B /* Pod */,
-				549B1329BF52EE9CB73BAA5B38D3EDFC /* Support Files */,
-			);
-			name = UIHostingView;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -296,7 +296,7 @@
 			buildConfigurationList = 6EA1F6D555AF29A19A00D966055E8779 /* Build configuration list for PBXNativeTarget "UIHostingView" */;
 			buildPhases = (
 				8F38877E07F4D540A44A22C5316F918E /* Headers */,
-				AE703CD164C56067350DA065E6588065 /* Sources */,
+				9CE86B7EB899CFBFA2DDB46DEB721210 /* Sources */,
 				1B1E330B9F86899F3C897EBE2BAFD19B /* Frameworks */,
 				3DE60A95F540239C741012CDB077155F /* Resources */,
 			);
@@ -371,12 +371,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE703CD164C56067350DA065E6588065 /* Sources */ = {
+		9CE86B7EB899CFBFA2DDB46DEB721210 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DA89B2F6A296897F6F2CDA2E82D05AC /* ReplaceMe.swift in Sources */,
-				553953272908EC3EE639D3F9ECD971A7 /* UIHostingView-dummy.m in Sources */,
+				227267845E583C1765EDC3A8FE5F53D6 /* UIHostingView.swift in Sources */,
+				7F041A80A229A680979A13445DB83DAF /* UIHostingView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +406,69 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2A3344F25FC7A37D006ECB9DA4CEC059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD513940E36795ADBFB5E778F87E2B73 /* UIHostingView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIHostingView/UIHostingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIHostingView/UIHostingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIHostingView/UIHostingView.modulemap";
+				PRODUCT_MODULE_NAME = UIHostingView;
+				PRODUCT_NAME = UIHostingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		555F276C6C643E880F613C78E8774D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D57DE271D9971DA1A53EF7AF2C72FE56 /* UIHostingView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIHostingView/UIHostingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIHostingView/UIHostingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIHostingView/UIHostingView.modulemap";
+				PRODUCT_MODULE_NAME = UIHostingView;
+				PRODUCT_NAME = UIHostingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -468,38 +531,6 @@
 			};
 			name = Release;
 		};
-		98AF11B3441172F1E2FEACD119E15BB6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8129B7DB040264E7D9160A773359E7CF /* UIHostingView.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UIHostingView/UIHostingView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIHostingView/UIHostingView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIHostingView/UIHostingView.modulemap";
-				PRODUCT_MODULE_NAME = UIHostingView;
-				PRODUCT_NAME = UIHostingView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		ABE8CCF5E64387021E3CEC6509D04E8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 06A775B614C9EE2E376F865EA9E84877 /* Pods-UIHostingView_Example.debug.xcconfig */;
@@ -527,37 +558,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AC2A4EAF0D7CF71DED4A8E654ECA825D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3125904C839F90E9B2CBB6FAB81455B /* UIHostingView.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UIHostingView/UIHostingView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIHostingView/UIHostingView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIHostingView/UIHostingView.modulemap";
-				PRODUCT_MODULE_NAME = UIHostingView;
-				PRODUCT_NAME = UIHostingView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -746,8 +746,8 @@
 		6EA1F6D555AF29A19A00D966055E8779 /* Build configuration list for PBXNativeTarget "UIHostingView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC2A4EAF0D7CF71DED4A8E654ECA825D /* Debug */,
-				98AF11B3441172F1E2FEACD119E15BB6 /* Release */,
+				2A3344F25FC7A37D006ECB9DA4CEC059 /* Debug */,
+				555F276C6C643E880F613C78E8774D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

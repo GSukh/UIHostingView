@@ -18,6 +18,14 @@ final public class UIHostingView<Content: View>: UIView {
         super.init(frame: .zero)
         setup()
     }
+    
+    public init(
+        builder: () -> Content
+    ) {
+        hostingViewController = UIHostingController(rootView: builder())
+        super.init(frame: .zero)
+        setup()
+    }
 
     required init?(
         coder: NSCoder

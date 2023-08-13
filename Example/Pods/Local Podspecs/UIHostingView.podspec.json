@@ -1,22 +1,24 @@
 {
   "name": "UIHostingView",
   "version": "0.1.0",
-  "summary": "A short description of UIHostingView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Grigoriy Sukhorukov/UIHostingView",
+  "summary": "A lightweight SwiftUI View wrapper for integration within UIKit.",
+  "description": "UIHostingView is a lightweight SwiftUI View wrapper that enables the seamless integration of SwiftUI content within UIKit components.",
+  "homepage": "https://github.com/GSukh/UIHostingView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Grigoriy Sukhorukov": "grigoriy.sukhorukov@gmail.com"
+    "Gregory Suhorukov": "grigoriy.sukhorukov@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Grigoriy Sukhorukov/UIHostingView.git",
+    "git": "https://github.com/GSukh/UIHostingView.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "14.0"
   },
-  "source_files": "UIHostingView/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "Sources/UIHostingView/**/*",
+  "swift_version": "5.0"
 }
